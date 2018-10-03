@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="styles/style.css"> 
+</head>
+<body>
+	<section class="content">
+			<form action="#">
+				<h1>Login Form</h1>
+				<div>
+					<input type="text" placeholder="User name" id="username"/>
+				</div>
+				<div>
+					<input type="password" placeholder="Password" id="password"/>
+				</div>
+				<div>
+					<input type="submit" value="Log in"/>
+					<a href="#">Lost your password?</a>
+					<a href="#">Register</a>
+				</div>
+			</form>
+			<div class="button">
+				<a href="#">Download source file</a>
+			</div>
+	</section>
+	<section class="content">
+		<p class="bold"><label for="#">Не знаете что делать? <br> <span>Введите Ваш ответ или выберите один из пунктов:</span></label></p>
+		<input type="text" name="name" placeholder="Ваш ответ:">
+		<p>
+			<input type="radio" name="radio" class="myradio" id="radio" />
+			<label for="radio">&nbspДа&nbsp</label><br><br>
+			<input type="radio" name="radio" class="myradio" id="radiotw" />
+			<label for="radiotw">Нет</label>
+		</p>
+		<div class="send">
+			<input type="submit" value="Отправить"/>
+		</div>
+		<hr>
+		<p> Пожалуйста оставьте Ваш комментарий:
+			<textarea name="comment" cols="30" rows="7" placeholder="Ваш комментарий:"></textarea>
+		</p>
+		<div class="send">
+			<input type="submit" value="Отправить"/>
+		</div>
+	</section>
+</body>
+</html>
